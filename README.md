@@ -3,7 +3,7 @@
 
 ## Overview
 
-**StockSimilarityML** is a project that leverages machine learning techniques to identify and analyze similar stocks based on their historical price patterns. This repository implements a solution using the Fast Dynamic Time Warping (Fast DTW) algorithm and Random Forest classifier, combined with data augmentation, to generate and discover similar stock patterns.
+**Ml-StockMatcher** is a project that leverages machine learning techniques to identify and analyze similar stocks based on their historical price patterns. This repository implements a solution using the Fast Dynamic Time Warping (Fast DTW) algorithm and Random Forest classifier, combined with data augmentation, to generate and discover similar stock patterns.
 
 ## Features
 
@@ -16,13 +16,13 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/StockSimilarityML.git
+git clone https://github.com/NeuroVortex/ml-stock-matcher.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd StockSimilarityML
+cd MlBasedStockMatcher
 ```
 
 Install the required packages:
