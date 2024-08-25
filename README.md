@@ -1,5 +1,5 @@
 
-# StockSimilarityML
+# ML-Based Stock Matcher
 
 ## Overview
 
