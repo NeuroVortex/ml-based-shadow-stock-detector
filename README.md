@@ -1,9 +1,9 @@
 
-# ML-Based Stock Matcher
+# ML-Based Shadow Stock Detector
 
 ## Overview
 
-**Ml-StockMatcher** is a project that leverages machine learning techniques to identify and analyze similar stocks based on their historical price patterns. This repository implements a solution using the Fast Dynamic Time Warping (Fast DTW) algorithm and Random Forest classifier, combined with data augmentation, to generate and discover similar stock patterns.
+**Ml-Based Shadow Stock Detector** is a project that leverages machine learning techniques to identify and analyze similar stocks based on their historical price patterns. This repository implements a solution using the Fast Dynamic Time Warping (Fast DTW) algorithm and Random Forest classifier, combined with data augmentation, to generate and discover similar stock patterns.
 
 ## Features
 
