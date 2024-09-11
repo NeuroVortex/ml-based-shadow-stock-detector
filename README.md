@@ -16,13 +16,7 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/NeuroVortex/ml-stock-matcher.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd MlBasedStockMatcher
+git clone https://github.com/NeuroVortex/ml-based-shadow-stock-detector
 ```
 
 Install the required packages:
@@ -31,16 +25,23 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
+To test the functionality of the module, go to the test directory and execute the test:
+
+```bash
+cd test
+python test.py
+```
+
 ## Usage
 
 1. **Data Preparation**: Ensure your stock data is formatted correctly. The model expects time-series data with consistent timestamps across all stocks.
   
 2. **Run the Model**:
    
-   - To find similar stocks, run the main script:
+   - To find similar stocks, use the **`detect_shadow_stocks`** function in the **`detect.py`**:
    
      ```bash
-     python find_similar_stocks.py
+     cd src
      ```
 
 3. **Results**:
