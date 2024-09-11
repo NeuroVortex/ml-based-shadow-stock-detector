@@ -3,7 +3,7 @@ from src.Application.Market.MarketCandleDataRepository import MarketCandleDataRe
 from src.Domain.SimilarityDetector.SimilarityDetector import SimilarityDetector
 
 
-def find(goal_ticker: str, file_path: str, model_path: str, model_name: str):
+def detect_shadow_stocks(goal_ticker: str, file_path: str, model_path: str, model_name: str):
     data_repo = MarketCandleDataRepository()
     candle_data_reader = CandleDataReader(data_repo)
     candle_data_reader.read_from_file(file_path)
